@@ -100,12 +100,12 @@ body {
       justify-content: space-around;
 }
 
-.card-footer-social {
+.card-footer-statistics {
   text-align: center;
   font-size: 1.6rem;
 }
 
-.card-footer-social p {
+.card-footer-statistics p {
   letter-spacing: 1px;
   margin-top: 2rem;
   margin-bottom: 2rem;

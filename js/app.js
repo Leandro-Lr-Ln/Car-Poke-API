@@ -48,9 +48,9 @@ const paintCard = (pokemon) =>{
     clone.querySelector('.card-body-img').setAttribute('src', pokemon.img);
     clone.querySelector('.card-body-title').innerHTML = `${pokemon.name} <span>${pokemon.hp} hp</span>`
     clone.querySelector('.card-body-text').textContent = `${pokemon.experience} Exp`;
-    clone.querySelectorAll('.card-footer-social h3')[0].textContent = `${pokemon.attack} K`;
-    clone.querySelectorAll('.card-footer-social h3')[1].textContent = `${pokemon.special} K`;
-    clone.querySelectorAll('.card-footer-social h3')[2].textContent = `${pokemon.defense} K`;
+    clone.querySelectorAll('.card-footer-statistics h3')[0].textContent = `${pokemon.attack} K`;
+    clone.querySelectorAll('.card-footer-statistics h3')[1].textContent = `${pokemon.special} K`;
+    clone.querySelectorAll('.card-footer-statistics h3')[2].textContent = `${pokemon.defense} K`;
 
     // hay que pasar nuestro clon al fragment
     fragment.appendChild(clone);
